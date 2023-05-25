@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components
+{
+  .btn-primary
+  {
+    @apply bg-orange-600 font-medium text-white w-fit mx-auto py-2 px-4 rounded-md transition-all hover:opacity-75 hover:scale-95;
+  }
+}
+
 @import url(https://fonts.bunny.net/css?family=alef:400,700);

@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'alef': ['Alef', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [],
