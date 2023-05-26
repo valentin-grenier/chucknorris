@@ -2,11 +2,11 @@
 module.exports = {
   content: ['./public/*.html'],
   theme: {
-    extend: {
-      fontFamily: {
-        'alef': ['Alef', 'sans-serif']
-      },
+    fontFamily: {
+      'sans': ['Alef', 'sans-serif'],
+      'serif': ['Arbutus']
     },
+    extend: {},
   },
   plugins: [],
 }
