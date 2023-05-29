@@ -12,33 +12,32 @@
   <link href="https://fonts.bunny.net/css?family=albert-sans:400" rel="stylesheet" />
 </head>
 
-<body class="bg-yellow-50 w-80 md:w-3/5 lg:w-2/5 h-max mx-auto flex flex-col gap-4">
+<body class="bg-yellow-50 w-80 md:w-3/5 lg:w-2/5 mx-auto flex flex-col justify-center h-screen">
 
-  <header class="bg-orange-800 text-white text-2xl md:text-4xl font-bold font-serif text-center py-4 px-8 md:px-16 mt-8 mx-auto rounded-xl shadow-md mb-0 md:mb-4">
-    <h1>Chuck Norris <span class="text-yellow-400">Jokes</span></h1>
-  </header>
-
-  <main class="text-center font-sans text-sm md:text-lg flex-grow">
-
-    <div id="image" class="mx-auto mb-4 overflow-hidden rounded-md shadow-md h-48 md:h-56 lg:h-80 bg-center bg-cover" style="background-image: url('')"></div>
-
-    <div class="bg-orange-100 mx-auto w-full flex flex-col rounded-md shadow-md mb-8">
-      <div class="p-6 grid place-content-center text-orange-800">
-        <blockquote class=" text-center font-bold text-sm md:text-lg break-words"></blockquote>
+    <header class="bg-orange-800 text-white text-2xl md:text-4xl font-bold font-serif text-center py-4 px-8 md:px-16 mt-8 mx-auto rounded-xl shadow-md mb-0 md:mb-4">
+      <h1>Chuck Norris <span class="text-yellow-400">Jokes</span></h1>
+    </header>
+  
+    <main class="text-center font-sans text-sm md:text-lg flex-1 overflow-y-auto flex flex-col justify-center">
+      <div id="image" class="mx-auto mb-4 overflow-hidden rounded-md shadow-md h-48 md:h-56 lg:h-80  w-full bg-center bg-cover" style="background-image: url('')"></div>
+      <div class="bg-orange-100 mx-auto w-full flex flex-col rounded-md shadow-md mb-8">
+        <div class="p-6 grid place-content-center text-orange-800">
+          <blockquote class=" text-center font-bold text-sm md:text-lg break-words"></blockquote>
+        </div>
       </div>
-    </div>
-
-    <div class="mx-auto block">
-      <button id="generate" class="btn-primary">Another one</button>
-    </div>
-    
-  </main>
-
-  <footer class="text-center py-4 text-xs md:text-lg">
-    Development by <a href="https://github.com/valentin-grenier" target="_blank" class="text-orange-500 font-bold transition-opacity hover:opacity-70">Valentin Grenier</a> - API by <a href="https://chucknorris.io" target="_blank" class="text-orange-500 font-bold transition-opacity hover:opacity-70">chucknorris.io</a>
-  </footer>
-
+      <div class="mx-auto block">
+        <button id="generate" class="btn-primary">Another one</button>
+      </div>
+    </main>
+  
+    <footer class="py-4 h-auto">
+      <p class="text-center text-xs md:text-lg">
+        Development by <a href="https://github.com/valentin-grenier" target="_blank" class="text-orange-500 font-bold transition-opacity hover:opacity-70">Valentin Grenier</a> - API by <a href="https://chucknorris.io" target="_blank" class="text-orange-500 font-bold transition-opacity hover:opacity-70">chucknorris.io</a>
+      </p>
+    </footer>
+  
   <script src="./js/app.js"></script>
+
 </body>
 
 </html>
