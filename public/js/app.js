@@ -23,16 +23,14 @@ const app = {
       // Generate a random image
 
       // Select the image
-      let image = document.querySelector('img');
+      let image = document.querySelector('#image');
 
       // Get a random number
       const random = Math.floor(Math.random() * 10) + 1;
 
-      // Select the relative path of the image
-      image.getAttribute('src');
-
       // Change the image number
-      image.setAttribute('src', './img/chuck-norris-' + random + '.jpeg');
+      image.style.backgroundImage = 'url("./img/chuck-norris-' + random + '.jpeg")';
+
     }
     
     catch (error) {
