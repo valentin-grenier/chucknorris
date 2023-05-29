@@ -549,6 +549,10 @@ video {
   opacity: 0.75;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
