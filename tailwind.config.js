@@ -3,8 +3,8 @@ module.exports = {
   content: ['./public/*.html'],
   theme: {
     fontFamily: {
-      'sans': ['Albert Sans', 'sans-serif'],
-      'serif': ['Arbutus']
+      sans: ['Albert Sans', 'sans-serif'],
+      serif: ['Arbutus', 'display']
     },
     extend: {},
   },

@@ -684,7 +684,7 @@ video {
 }
 
 .font-serif {
-  font-family: Arbutus;
+  font-family: Arbutus, display;
 }
 
 .text-2xl {
@@ -704,11 +704,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.text-orange-500 {
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
 .text-orange-800 {

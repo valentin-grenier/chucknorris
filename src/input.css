@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(https://fonts.bunny.net/css?family=albert-sans:400);
+@import url(https://fonts.bunny.net/css?family=arbutus:400);
+
 @layer components
 {
   .btn-primary
