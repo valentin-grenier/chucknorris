@@ -7,7 +7,7 @@
   .btn-primary
   {
     @apply
-    bg-orange-600
+    bg-orange-800
     font-semibold
     text-white
     w-fit
